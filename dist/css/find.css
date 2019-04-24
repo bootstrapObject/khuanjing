@@ -1,0 +1,79 @@
+.notAllowed {
+	cursor: not-allowed;
+}
+.red{
+	color:red;
+}
+body{
+	background: #2a3b43;
+}
+h1{
+	margin-bottom: 30px;
+	margin-top: 40px;
+	color: rgb(211,221,220);
+}
+header hr{
+	background: #eaf6f5;
+	height:1px;
+}
+form{
+	margin: 50px 80px;
+	color: #1f6c98;
+}
+form span{
+	display: inline-block;
+	margin-bottom: 5px;
+	font-size: 22px;
+	font-weight: 100;
+}
+form input{
+	margin-bottom: 10px;
+	height: 45px;
+	background-color: none;
+}
+form input[type=button]{
+	background: #283c43;
+	border: none;
+	color: #dee2e6;
+	margin-top: 30px;
+}
+form button{
+	background: #283c43;
+	border: none;
+	color: #fff;
+	height: 40px;
+}
+.col-md-6{
+	background: rgba(211,221,220,0.8);
+}
+
+
+@media (max-width: 767px){
+	
+	h1{
+	margin-bottom: 30px;
+	margin-top: 40px;
+	color: #1f6c98;
+	font-size: 35px;
+	}
+	form{
+		margin: 5px 20px;
+	}
+	
+	form hr{
+		margin-top: 25px;
+	}
+	body{
+		background: rgba(211,221,220,0.8);
+	}
+	.col-md-6{
+	padding: 0 20px;
+	background: none;
+	}
+}
+
+input#signIn:focus {
+	background: #283c43;
+	color: #dee2e6;
+}
+

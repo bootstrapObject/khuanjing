@@ -1,0 +1,43 @@
+
+.content-wrapper{
+     /* margin-top:57px;*/
+}
+
+.fa img{
+	width: 20px;
+}
+.nav-item p{
+	padding-left: 15px;
+}
+
+.sidebar{
+	margin-top: 50px;
+}
+.sidebar li{
+	padding-bottom: 10px;
+}
+
+.main-header{
+	z-index: 1000;
+}
+header {
+	color: white;
+	font-size: 25px;
+	line-height: 1;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
